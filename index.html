@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/29d2e984e7.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
     <div class="grid-container">
         <div id="grid"></div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <input id="color-picker" type="color" value="#FEE2A0">
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+            <div id="slider-value">16 x 16</div>
+          </div>
+          <i id="reset-icon" class="fas fa-redo"></i>
+    </div>
 
 
     <script src="/script.js"></script>
