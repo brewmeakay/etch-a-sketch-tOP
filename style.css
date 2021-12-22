@@ -1,9 +1,9 @@
 :root
 {
-    --main-bg-color : #60cdb5;
-    --footer-bg-color: #FEE2A0;
+    --main-bg-color : #E0E0E0;
+    --footer-bg-color: #c79f9f;
     --main-text-color: #FFFFFF;
-    --alternative-color: #78b4a7;
+    --alternative-color: #AC70CA;
 }
 
 *
@@ -41,7 +41,6 @@ body
 
 .footer
 {
-    /* background-color: var(--alternative-color ); */
     height: 10%;
     display: flex;
     align-items: center;
@@ -57,6 +56,7 @@ body
     border: none;
     height: 40px;
     width: 40px;
+    margin-left: 10px;
 }
 #color-picker:hover
 {
@@ -80,8 +80,8 @@ body
 #reset-icon
 {
     font-size: 40px;
-    color: var(--footer-bg-color);
-
+    color: var(--alternative-color);
+    margin-right: 10px;
 }
 
 
@@ -101,6 +101,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
 }
 
