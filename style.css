@@ -4,7 +4,7 @@
   --main-text-color: #ffffff;
   --alternative-color-1: #ac70ca;
   --alternative-color-2: #78b4a7;
-  --sketch-color:#ac70ca;
+  --sketch-color: #ac70ca;
 }
 
 * {
@@ -48,7 +48,6 @@ body {
   flex: 1;
   border: 1px solid var(--main-text-color);
   opacity: 0.3;
-
 }
 
 .footer {
@@ -130,10 +129,8 @@ body {
   cursor: pointer;
 }
 
-
 /* sketch styling */
 
-.change-color
-{
+.change-color {
   background-color: var(--sketch-color);
 }
