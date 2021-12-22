@@ -4,6 +4,8 @@ let grid =document.querySelector('#grid')
 let currentSliderValue=16;  //default value
 createGrid(currentSliderValue);
 
+let colorPicker = document.querySelector('#color-picker');
+
 
 rangeSlider.oninput = function ()
 {
@@ -35,3 +37,9 @@ function createGrid(dimension)
     }
 }
 
+grid.addEventListener('mouseover',function(e)
+{
+    e.target.classList.add('change-color');
+    colorPicker.oninput = function(){}
+    e.target.style.backgroundColor = colorPicker.value;
+})

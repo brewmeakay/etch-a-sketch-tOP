@@ -4,6 +4,7 @@
   --main-text-color: #ffffff;
   --alternative-color-1: #ac70ca;
   --alternative-color-2: #78b4a7;
+  --sketch-color:#ac70ca;
 }
 
 * {
@@ -127,4 +128,12 @@ body {
   border-radius: 50%;
   background: var(--alternative-color-2);
   cursor: pointer;
+}
+
+
+/* sketch styling */
+
+.change-color
+{
+  background-color: var(--sketch-color);
 }
