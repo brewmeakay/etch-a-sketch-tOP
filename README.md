@@ -4,4 +4,4 @@
  
  It's part of [theodinproject.com's](https://www.theodinproject.com/courses/foundations/lessons/etch-a-sketch-project) curriculum.
  
- Live Version [here] (https://brewmeakay.github.io/etch-a-sketch-tOP/)
+ Live Version [here](https://brewmeakay.github.io/etch-a-sketch-tOP/)
